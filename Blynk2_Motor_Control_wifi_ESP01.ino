@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLFLrQPIC9"
+#define BLYNK_TEMPLATE_ID "*********"
 #define BLYNK_DEVICE_NAME "Water Pump Remote Control"
-#define BLYNK_AUTH_TOKEN "RIYY5xhsfekIgUE_fxZ6QXu2DNxZ62Gf"
+#define BLYNK_AUTH_TOKEN "***********"
 
 #include <ESP8266WiFi.h>
 
@@ -14,11 +14,9 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 
 
-char ssid[] = "Home-Automation";
-char pass[] = "bayazidhome";
+char ssid[] = "*********";
+char pass[] = "********";
 
-//char ssid[] = "AB-Link3";
-//char pass[] = "@khi.home";
 
 #include <BlynkSimpleEsp8266.h>
 

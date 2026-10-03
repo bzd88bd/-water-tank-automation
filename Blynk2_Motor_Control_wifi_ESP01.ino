@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "*********"
+#define BLYNK_TEMPLATE_ID "name"
 #define BLYNK_DEVICE_NAME "Water Pump Remote Control"
-#define BLYNK_AUTH_TOKEN "***********"
+#define BLYNK_AUTH_TOKEN "token"
 
 #include <ESP8266WiFi.h>
 
@@ -14,8 +14,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 
 
-char ssid[] = "*********";
-char pass[] = "********";
+char ssid[] = "name";
+char pass[] = "pass";
 
 
 #include <BlynkSimpleEsp8266.h>
